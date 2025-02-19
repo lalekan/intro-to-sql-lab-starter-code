@@ -88,6 +88,6 @@ select cities.name as cityName, countries.name as countryName, countries.capital
 from cities
 left join countries on
 countries.code = cities.countrycode
-where cities.population = 91000
+where cities.population = 91084;
 ;
 --  Najran Saudi Arabian - Its in the desert
